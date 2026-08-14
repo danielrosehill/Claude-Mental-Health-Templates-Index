@@ -53,7 +53,7 @@ The administrative half — you are in therapy, and the tooling keeps the paperw
 
 ```text
   Claude-Personal-Context-Plugin          ← who you are. Written once, read by everything.
-   store: ~/.claude-user-data/personal-context
+   store: <user data root>/personal-context   (resolved; never inside ~/.claude)
                     │  scoped reads
      ┌──────────────┼──────────────┐
      ▼              ▼              ▼
